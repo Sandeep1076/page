@@ -363,12 +363,12 @@ body {
     gap: 10px;
     color: rgb(188, 188, 188);
     vertical-align: auto;
-    padding-right: 20px;
+    padding-right: auto;
 }
 
 .slide-skills h6 {
     /* display: inline-block; */
-    padding: 5px 15px 0px 15px;
+    padding: 3px 15px 0px 15px;
     font-weight: 300;
     color: rgb(110, 110, 110);
 }
