@@ -363,7 +363,7 @@ body {
     gap: 10px;
     color: rgb(188, 188, 188);
     vertical-align: auto;
-    padding-right: auto;
+    padding-right: 20px;
 }
 
 .slide-skills h6 {
