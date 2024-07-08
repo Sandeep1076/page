@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FORM........................ */
+
+#FORM {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 300px;
+}
+
+
+/* FORMDIV1......... */
+
+#FORMDIV1 {
+    padding: 60px 0px;
+}
+
+#FORMDIV1 h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(38, 59, 92);
+}
+
+#subdivs {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#subdivs input {
+    width: 50%;
+}
+
+#enter-message {
+    padding: 10px;
+    margin-top: 20px;
+    resize: none;
+    border: 1px solid rgb(229, 230, 233);
+}
+
+#enter-name {
+    padding: 10px;
+    margin-right: 30px;
+    border: 1px solid rgb(229, 230, 233);
+}
+
+#enter-email {
+    padding: 10px;
+    border: 1px solid rgb(229, 230, 233);
+
+}
+
+#enter-subject {
+    padding: 10px;
+    resize: none;
+    border: 1px solid rgb(229, 230, 233);
+}
+
+#send-bt-div #send-bt {
+    padding: 20px 45px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(101, 201, 187);
+    border: 1px solid rgb(101, 201, 187);
+    background-color: #fff;
+}
+
+#send-bt-div #send-bt:hover {
+    background-color: rgb(101, 201, 187);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* FORMDIV2......... */
+
+#FORMDIV2 {
+    margin: 24px 48px 24px 48px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 90px;
+}
+
+#FORMDIV2 .subdiv {
+    display: flex;
+    margin: 12px;
+    gap: 15px;
+}
+
+#FORMDIV2 .icon {
+    text-align: center;
+    color: rgb(138, 138, 138);
+}
+
+
+#FORMDIV2 .content {
+    text-align: start;
+}
+
+.content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(38, 59, 92);
+}
+
+.content h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(138, 138, 138);
+}
+
+/* MAP........... */
+
+#Map-contact {
+    padding: 0px 360px;
+    margin-bottom: 60px;
+}

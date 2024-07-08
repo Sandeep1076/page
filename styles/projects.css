@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes fade-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgb(23, 23, 23);
+    }
+}
+
+body {
+    padding: 0px 250px;
+}
+
+
+.project-card1 {
+    padding: 28px 20px;
+    animation: fade-in-right 1s forwards;
+    height: 250px;
+}
+
+.project-card2 {
+    padding: 28px 20px;
+    animation: fade-in-left 1s forwards;
+    height: 250px;
+}
+
+.project-card3 {
+    padding: 28px 20px;
+    animation: fade-in-right 2s forwards;
+    height: 330px;
+}
+
+.project-card4 {
+    padding: 28px 20px;
+    animation: fade-in-left 2s forwards;
+    height: 330px;
+
+}
+
+.footercard2 {
+    padding: 10px 12px;
+    margin-top: 14px;
+    animation: fade-in-up 2s forwards;
+}
+
+.f-icons a {
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+    body {
+/*         background: linear-gradient(to bottom, rgb(51, 9, 11), rgb(0, 0, 0)); */
+/*         background: linear-gradient(to bottom, #780206, #030a3d); */
+/*         background: linear-gradient(to bottom, #7a2828, #00223E); */
+        background: linear-gradient(to bottom, #870000, #00223E, #010201);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-row {
+        flex-direction: row-reverse;
+    }
+
+    .project-card1 {
+        height: 330px;
+    }
+
+    .project-card2 {
+        height: 330px;
+        margin-top: 20px;
+    }
+
+    .project-card3 {
+        height: 470px;
+        margin-top: 20px;
+    }
+
+    .project-card4 {
+        height: 450px;
+        margin-top: 20px;
+    }
+
+    .f-icons-sec {
+        margin-top: 5px;
+        width: 100%;
+    }
+}
+
+/* This is only for the Glalaxy fold mobile which has 280px  */
+@media (min-width: 279px) and (max-width: 282px) {
+    .project-card1 {
+        height: 500px;
+    }
+
+    .project-card2 {
+        height: 500px;
+        margin-top: 20px;
+    }
+
+    .project-card3 {
+        height: 650px;
+        margin-top: 20px;
+    }
+
+    .project-card4 {
+        height: 650px;
+        margin-top: 20px;
+    }
+
+}
+
+/* for tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+/*         background: linear-gradient(to bottom, rgb(51, 9, 11), rgb(0, 0, 0)); */
+/*         background: linear-gradient(to bottom, #780206, #030a3d); */
+/*         background: linear-gradient(to bottom, #7a2828, #00223E); */
+        background: linear-gradient(to bottom, #870000, #00223E, #010201);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card2,
+    .project-card4 {
+        margin-top: 20px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-card1 {
+        height: 330px;
+    }
+
+    .project-card2 {
+        height: 330px;
+    }
+
+    .project-card3 {
+        height: 420px;
+    }
+
+    .project-card4 {
+        height: 420px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topBar {
+        width: 100%;
+    }
+
+    .project-card1 {
+        height: 250px;
+    }
+
+    .project-card2 {
+        height: 250px;
+    }
+
+    .project-card3 {
+        height: 330px;
+    }
+
+    .project-card4 {
+        height: 330px;
+    }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px 150px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topBar {
+        width: 100%;
+    }
+
+    .expcard .educationcard {
+        /* padding: 50px; */
+    }
+}

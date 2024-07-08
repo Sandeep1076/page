@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-card {
+    padding: 26px 12px;
+}
+
+.contact-card h5 {
+    color: rgb(110, 110, 110);
+    font-weight: 300;
+}
+
+.c-inner-card {
+    padding: 20px;
+}
+
+.firstrow {
+    padding: 12px 300px 0px 300px;
+}
+
+.secondrow {
+    padding: 0px 300px;
+}
+
+.thirdrow {
+    padding: 28px 300px;
+}
+
+.send-btn {
+    padding: 0px 300px;
+    margin-bottom: 30px;
+}
+
+.contact-footer h3 {
+    font-weight: 300;
+}
+
+.cicons {
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.c-icons a #linkedin-c {
+    transition: all 0.4s ease;
+    color: white;
+}
+
+.c-icons a #github-c {
+    transition: all 0.4s ease;
+    color: white;
+}
+
+.c-icons a #insta-c {
+    transition: all 0.4s ease;
+    color: white;
+}
+
+.c-icons a #twitter-c {
+    transition: all 0.4s ease;
+    color: white;
+}
+
+.c-icons a #linkedin-c:hover {
+    color: rgb(55, 98, 207);
+    cursor: pointer;
+}
+
+.c-icons a #github-c:hover {
+    color: rgb(8, 132, 8);
+    cursor: pointer;
+}
+
+.c-icons a #insta-c:hover {
+    color: rgb(241, 0, 10);
+    cursor: pointer;
+}
+
+.c-icons a #twitter-c:hover {
+    color: rgb(55, 98, 207);
+    cursor: pointer;
+}
+
+.c-icons {
+    padding-top: 6px;
+}
+
+.c-footer {
+    border-top: 1px solid rgba(43, 42, 42, 0.7);
+}
+
+.contact-footer {
+    padding-top: 14px;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+    body {
+/*         background: linear-gradient(to bottom, rgb(51, 9, 11), rgb(0, 0, 0)); */
+/*         background: linear-gradient(to bottom, #780206, #030a3d); */
+/*         background: linear-gradient(to bottom, #7a2828, #00223E); */
+        background: linear-gradient(to bottom, #870000, #00223E, #010201);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .firstrow {
+        padding: 0px;
+    }
+
+    .secondrow {
+        padding: 0px 0px;
+    }
+
+    .thirdrow {
+        padding: 28px 0px;
+    }
+
+    .send-btn {
+        padding: 0px 0px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 279px) and (max-width: 282px) {
+    .cicons {
+        font-size: 14px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .firstrow {
+        padding: 12px 12px 0px 12px;
+    }
+
+    .secondrow {
+        padding: 0px 12px;
+    }
+
+    .thirdrow {
+        padding: 28px 12px;
+    }
+
+    .send-btn {
+        padding: 0px 12px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .firstrow {
+        padding: 12px 100px 0px 100px;
+    }
+
+    .secondrow {
+        padding: 0px 100px;
+    }
+
+    .thirdrow {
+        padding: 28px 100px;
+    }
+
+    .send-btn {
+        padding: 0px 100px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px 150px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    .firstrow {
+        padding: 12px 300px 0px 300px;
+    }
+
+    .secondrow {
+        padding: 0px 300px;
+    }
+
+    .thirdrow {
+        padding: 28px 300px;
+    }
+
+    .send-btn {
+        padding: 0px 300px;
+        margin-bottom: 30px;
+    }
+}

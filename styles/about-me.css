@@ -1,0 +1,520 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes fade-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.reveal {
+    transform: translateY(120px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.reveal-fade {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.reveal-fade.active-fade {
+    opacity: 1;
+}
+
+.reveal-right {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 1s ease;
+}
+
+.reveal-right.active-right {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.reveal-left {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 1s ease;
+}
+
+.reveal-left.active-left {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+body {
+    background-image: url(../assets/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box-1 {
+    animation: fade-in-right 1s forwards;
+    height: 380px;
+}
+
+.about-me-box {
+    animation: fade-in-left 1s forwards;
+    height: 380px;
+}
+
+.about-me-box h2 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#about-me-box-h2 {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(77, 77, 77));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about-me-box p {
+    text-align: justify;
+}
+
+.name {
+    background: linear-gradient(rgb(255, 255, 255), rgb(82, 80, 80));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#resume {
+    margin-top: 20px;
+}
+
+#resume a {
+    text-decoration: none;
+    color: rgb(19, 0, 0);
+    padding: 10px 13px;
+    border-radius: 14px;
+    background-color: rgb(188, 188, 188);
+}
+
+#resume a:hover {
+    transform: scale(1.8);
+    color: rgb(188, 188, 188);
+    background-color: transparent;
+    border: 1px solid rgba(188, 188, 188, 0.65)
+}
+
+#resume a:hover .resume-icon {
+    color: rgb(188, 188, 188)
+}
+
+.resume-icon {
+    position: relative;
+    bottom: -2px;
+    font-size: 15px;
+    margin-right: 4px;
+    color: rgb(19, 0, 0);
+}
+
+.about-icons a {
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+    border-radius: 5px;
+}
+
+.about-icons {
+    gap: 15px;
+}
+
+.aicons {
+    font-size: 20px;
+    padding: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 5px;
+}
+
+.aeduc-box {
+    padding: 10px 24px;
+    margin-top: 16px;
+    animation: fade-in-up 1s forwards;
+}
+
+.aeduc-card {
+    padding: 14px 12px;
+}
+
+.side1 {
+        border-right: 1px solid rgba(78, 76, 76, 0.9);
+}
+
+.side2 {
+    padding-left: 40px;
+}
+
+.edcbox {
+    padding: 6px;
+}
+
+.edsec {
+    margin-top: 10px;
+}
+
+
+.train-box {
+    padding: 14px 24px 18px 24px;
+}
+
+.tcard {
+    padding: 10px;
+}
+
+.train-icon {
+    margin-right: 14px;
+}
+
+.train-img {
+    color: grey;
+}
+
+.tcard1 {
+    padding: 14px;
+    background-color: transparent;
+    /* border: 1px solid rgba(43, 42, 42, 0.3); */
+    border: 1px solid rgba(188, 188, 188, 0.2);
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.tcard1 h5 {
+    font-size: 17px;
+}
+
+.tcard1 p {
+    font-size: 15px;
+}
+
+.tside2 img {
+    /* width: auto; */
+    width: 210px;
+    border-radius: 14px;
+}
+
+.tside2 {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footercard {
+    padding: 10px 24px;
+    margin-bottom: 40px;
+}
+
+.fcard {
+    padding: 20px 18px;
+}
+
+.f-icons {
+    display: flex;
+    gap: 18px;
+}
+
+.f-icons a {
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+}
+
+.fcard1 h6 {
+    margin-bottom: 20px;
+}
+
+#fbtn {
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+    background-color: rgba(43, 42, 42, 0.7);
+    padding: 5px 13px;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+}
+
+#fbtn:hover {
+    transform: scale(1.8);
+    background-color: rgb(188, 188, 188);
+    color: rgba(43, 42, 42, 0.7);
+}
+
+.fgicon {
+    color: rgb(188, 188, 188);
+    background-color: transparent;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+    body {
+/*         background: linear-gradient(to bottom, rgb(51, 9, 11), rgb(0, 0, 0)); */
+/*         background: linear-gradient(to bottom, #780206, #030a3d); */
+/*         background: linear-gradient(to bottom, #7a2828, #00223E); */
+        background: linear-gradient(to bottom, #870000, #00223E, #010201);
+    }
+
+    .second-row {
+        flex-direction: row-reverse;
+    }
+
+    .about-me-box {
+        margin-top: 20px;
+        height: 430px;
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    .side1 {
+        border-right: none;
+    }
+
+    .side2 {
+        padding-left: 10px;
+    }
+
+    .edcbox {
+/*         border-bottom: 1px solid rgba(43, 42, 42, 0.9); */
+        border-bottom: 1px solid rgba(78, 76, 76, 0.9);
+
+    }
+
+    .a-edc-rows {
+        padding-top: 10px;
+    }
+
+    .edcbox3 {
+        border-bottom: none;
+    }
+
+    .f-icons {
+        margin-top: 20px;
+    }
+}
+
+/* This is only for the Glalaxy fold mobile which has 280px  */
+@media (min-width: 279px) and (max-width: 282px) {
+    .about-me-box {
+        margin-top: 50px;
+        height: 550px;
+    }
+
+    .aicons {
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* for tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+/*         background: linear-gradient(to bottom, rgb(51, 9, 11), rgb(0, 0, 0)); */
+/*         background: linear-gradient(to bottom, #780206, #030a3d); */
+/*         background: linear-gradient(to bottom, #7a2828, #00223E); */
+        background: linear-gradient(to bottom, #870000, #00223E, #010201);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-box {
+        padding: 0px 15px 0px 15px;
+        height: 300px;
+    }
+
+    .box-1 {
+        height: 330px;
+        margin-bottom: 20px;
+    }
+
+    #about-me-box-h2 {
+        background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .train-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tside1 {
+        width: 100%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .about-me-box {
+        padding: 10px;
+    }
+
+    .about-me-box p {
+        font-size: 15px;
+    }
+
+    #resume {
+        margin-top: 10px;
+    }
+
+    .tside2 img {
+        width: 150px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me-box {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .about-me-box p {
+        text-align: justify;
+    }
+
+
+    #resume {
+        margin-top: 10px;
+    }
+
+    .tside2 img {
+        width: 210px;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 0px 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topBar {
+        width: 100%;
+    }
+
+    .about-me-box {
+        padding: 20px 20px 22px 20px;
+        justify-content: baseline;
+        align-items: baseline;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    body {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px 150px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topBar {
+        width: 100%;
+    }
+
+    .expcard .educationcard {
+        /* padding: 50px; */
+    }
+
+    .about-me-box {
+        justify-content: center;
+    }
+
+    .about-me-box h2 {
+        /* background: linear-gradient(to left, rgb(183, 37, 40), rgb(65, 57, 235)); */
+        background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    #about-me-box-h2 {
+        background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .tside2 img {
+        position: relative;
+        margin-left: 50px;
+        width: 190px;
+    }
+}

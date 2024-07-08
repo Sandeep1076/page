@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#CARDS-P {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#CARDSDIV0 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+
+#CARDSDIV0 p {
+    color: rgb(101, 201, 187);
+    margin-bottom: 10px;
+}
+
+#CARDSDIV0 h1 {
+    color: rgb(38, 59, 92);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#card4 {
+    background-color: rgb(244, 242, 241);
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 0px 20px;
+    padding-bottom: 23px;
+}
+
+#CARDSDIV1 {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+#CARDSDIV2 {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+#CARDS-P img {
+    width: 100%;
+}
+
+.cardh2 {
+    color: rgb(38, 59, 92);
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.cardp1 {
+    color: rgb(119, 119, 138);
+}
+
+.cardh3 {
+    color: rgb(101, 201, 187);
+    font-weight: 600;
+}
+
+.cardp2 {
+    font-size: 14px;
+    color: rgb(38, 59, 92);
+}
+
+.btitems {
+    padding: 14px 65px;
+    background-color: rgb(241, 91, 67);
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    position: relative;
+    border: 2px solid rgb(241, 91, 67);
+}
+
+.itemsh {
+    margin-left: 25px;
+}
+
+.items {
+    margin-left: 20px;
+    margin-top: 35px;
+    padding-left: 50px;
+}
+
+
+#card1:hover {
+    cursor: pointer;
+}
+
+#card1:hover h2 {
+    color: rgb(241, 91, 67);
+}
+
+#card1:hover .btitems {
+
+    color: rgb(241, 91, 67);
+    background-color: #ffffff;
+}
+
+#card2:hover {
+    cursor: pointer;
+}
+
+#card2:hover h2 {
+    color: rgb(241, 91, 67);
+}
+
+#card2:hover .btitems {
+
+    color: rgb(241, 91, 67);
+    background-color: #ffffff;
+}
+
+#card3:hover {
+    cursor: pointer;
+}
+
+#card3:hover h2 {
+    color: rgb(241, 91, 67);
+}
+
+#card4:hover .btitems a {
+    color: rgb(241, 91, 67);
+}
+
+#card3:hover .btitems {
+
+    color: rgb(241, 91, 67);
+    background-color: #ffffff;
+}
+
+#card4:hover {
+    cursor: pointer;
+}
+
+#card4:hover h2 {
+    color: rgb(241, 91, 67);
+}
+
+#card4:hover .btitems {
+
+    color: rgb(241, 91, 67);
+    background-color: #ffffff;
+}
+
+.itemsh p:nth-child(2) {
+    width: 98%;
+    font-size: 15px;
+}
+
+#Map-Programs {
+    margin-top: 120px;
+}
