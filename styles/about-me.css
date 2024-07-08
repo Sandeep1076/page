@@ -84,7 +84,7 @@
 }
 
 body {
-    background-image: url(../assets/bg2.jpg);
+    background-image: url(../assets/bgm_01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -122,7 +122,7 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-
+/*
 #resume {
     margin-top: 20px;
 }
@@ -153,7 +153,7 @@ body {
     margin-right: 4px;
     color: rgb(19, 0, 0);
 }
-
+*/
 .about-icons a {
     text-decoration: none;
     color: rgb(188, 188, 188);
@@ -423,7 +423,7 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     body {
-        background-image: url(../assets/4.jpg);
+        background-image: url(../assets/bgm_01.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -455,7 +455,7 @@ body {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     body {
-        background-image: url(../assets/4.jpg);
+        background-image: url(../assets/bgm_01.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -478,7 +478,7 @@ body {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     body {
-        background-image: url(../assets/4.jpg);
+        background-image: url(../assets/bgm_01.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
